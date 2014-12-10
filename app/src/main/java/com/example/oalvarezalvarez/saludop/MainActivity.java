@@ -31,6 +31,11 @@ public class MainActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
+        //Tiene editText y editView
+        //Tiene radio buttons
+        // Tiene data y time pickers
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         texto =(EditText) findViewById(R.id.entrada);
@@ -52,6 +57,7 @@ public class MainActivity extends Activity
 
         Clase persona1=new Clase("Oscar",19);
         intento.putExtra("id1",persona1);
+
 
         botonSaludo.setOnClickListener(new View.OnClickListener()
         {

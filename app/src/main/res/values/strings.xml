@@ -9,6 +9,6 @@
     <string name="saludo"/>
     <string name="entrada"/>
     <string name="b_saludo">saludos</string>
-    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="main_activity2">MainActivity2</string>
 
 </resources>

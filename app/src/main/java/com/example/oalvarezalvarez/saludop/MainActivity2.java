@@ -8,12 +8,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.RadioGroup;
 import android.widget.TimePicker;
 
 
 public class MainActivity2 extends Activity {
     Button btnHola;
     Button btnAdios;
+    RadioGroup rd; //Declaro radio group
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +46,7 @@ public class MainActivity2 extends Activity {
                 }
         }
         );
+
     }
 
 
